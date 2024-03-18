@@ -13,6 +13,7 @@ public class PastebinController {
     public List<String> getPasteOfList(){
         return Collections.emptyList();
     }
+
     @GetMapping("{hash}")
     public String getByHash(@PathVariable String hash){
         return hash;

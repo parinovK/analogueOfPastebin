@@ -9,5 +9,4 @@ public class AnalogueOfPastebinApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AnalogueOfPastebinApplication.class, args);
 	}
-
 }

@@ -1,6 +1,6 @@
-package controller;
+package ru.parinov.analogueOfPastebin.controller;
 
-import model.PastebinModel;
+import ru.parinov.analogueOfPastebin.model.PastebinRequestModel;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collections;
@@ -20,7 +20,7 @@ public class PastebinController {
     }
 
     @PostMapping("save_paste")
-    public String add (@RequestBody PastebinModel pastebin){
+    public String add (@RequestBody PastebinRequestModel pastebin){
         return pastebin.getData();
     }
 }
